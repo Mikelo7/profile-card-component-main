@@ -1,0 +1,126 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+
+
+
+}
+
+.card {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+  background-color: white;
+  width: 330px;
+  height: 375px;
+  border-radius: 5%;
+  overflow: hidden;
+
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.1em;
+  color: hsl(229, 23%, 23%);
+
+  z-index: 10;
+}
+
+
+.top-circle {
+  position: absolute;
+  left: -25%;
+  top: -75%;
+}
+
+.bottom-circle {
+  position: absolute;
+  right: -25%;
+  bottom: -75%;
+}
+
+
+
+.top-background {
+
+  min-height: 140px;
+  background-image: url(images/bg-pattern-card.svg);
+
+}
+
+.photo {
+  display: block;
+  position: relative;
+  margin: -50px auto -6px auto;
+  border: solid;
+  border-radius: 50%;
+  border-color: white;
+  border-width: 5px;
+}
+
+.name {
+  display: inline-block;
+  min-height: 100px;
+  width: 100%;
+  padding: 1.5rem;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+
+.data {
+text-align: center;
+border-top: solid 1px lightgrey;
+height: 75px;
+padding: 1.5% 5%;
+}
+
+.data-div {
+  display: inline-block;
+  width: 30%;
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+.numbers {
+  line-height: 0.5;
+}
+
+.units {
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 0.5;
+  color: hsl(0, 0%, 59%);
+  letter-spacing: 2px;
+}
+
+.attribution {
+  margin: 3rem;
+  text-align: center;
+  color: lightgrey;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: white;
+}
+
+
+.age, .city {
+  color: hsl(0, 0%, 59%);
+}
+
+.age {
+  font-weight: 400;
+
+  padding-left: 0.5rem;
+}
+
+.city {
+  font-weight: 400;
+  font-size: .8em;
+
+}
